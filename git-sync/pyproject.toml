@@ -1,0 +1,9 @@
+[project]
+dependencies = [
+  "typer==0.15.1"
+]
+name = "git-sync"
+version = "0.1.0"
+
+[project.scripts]
+git-sync = "git_sync.main:main"
